@@ -14,8 +14,8 @@ print("........Simple Interest Calculation:..........")
 
 P = float(input("Enter The Principle AMount Of The Loan: "))
 N = float(input("Enter Term of loan, in years: "))
-N= N/100
 R = float(input("Enter Annual interest rate: "))
+R = R/100
 
 simpleInterest = P*N*R
 print("\n\t Calculated Simple Interest Is:%.2f\n" % simpleInterest)
